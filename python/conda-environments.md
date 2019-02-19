@@ -10,11 +10,11 @@ conda create --name mynewenv python=3.4
 
 ## Activating and leaving an environment
 ```
-source activate mynewenv
+conda activate mynewenv
 ```
 
 ```
-deactivate
+conda deactivate
 ```
 
 ## Listing environments
