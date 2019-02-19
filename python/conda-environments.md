@@ -27,6 +27,11 @@ conda env list
 conda info
 ```
 
+## List packages in current environment
+```
+conda list
+```
+
 ## Install package into current environment
 ```
 conda install packagename
