@@ -1,0 +1,1 @@
+ANSYS software (fluent, CFX, CFD etc) is licenced by individuals around campus including (exclusively?) in MACE. Red area field support have an installer.
