@@ -5,4 +5,5 @@
 # Optionally, can pass additional arguments e.g.
 # . compile-singlethread-matlab.sh mycode.m -I toolbox-dir
 
+# ${@:2} means all arguments, starting with the second
 mcc -m $1 -R -singleCompThread ${@:2}
