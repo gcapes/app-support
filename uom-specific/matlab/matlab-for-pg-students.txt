@@ -1,0 +1,16 @@
+Hi, 
+
+As a postgraduate student, you can use MATLAB on University-owned equipment.
+
+If your PC is a managed desktop and MATLAB is not currently installed, you can install it from the Software Centre http://www.itservices.manchester.ac.uk/software/. Should there be any difficulties with this process, the Support Centre can remotely deploy the software to your computer.
+
+If your PC is a non-managed desktop, the Support Centre can remotely access your machine and install the software for you, or arrange for a member of field support to install the software for you.
+
+For laboratory computers, your supervisor will have to request this via the Support Centre.
+
+Postgraduate students are not licenced to install MATLAB on personally-owned equipment. Alternatives to consider for this purpose include: Octave (open-source software which is source-code compatible with MATLAB https://www.gnu.org/software/octave/), Mathematica, Maple (both licenced for use by UoM PG students).
+
+Please let me know how you'd like to proceed.
+
+Thanks
+Gerard
