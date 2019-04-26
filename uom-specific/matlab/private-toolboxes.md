@@ -3,9 +3,9 @@ An overview of MATLAB toolboxes is given at https://www.applications.itservices.
 
 The research version of MATLAB at UoM comes with 12 MATLAB toolboxes, and the NAG toolbox.
 The list of toolboxes is detailed here:
-https://supportcentre.manchester.ac.uk/ServiceDesk.WebAccess/ss/object/open.rails?class_name=Knowledge.Article&key=7a2c9151-fd54-47ff-900e-21e294a58f10
+https://manchester.saasiteu.com/Modules/SelfService/#knowledgeBase/view/820634D1D55540C6A8BCCF58A4181874
 
-If you need access to a toolbox that is not in that list, you will need to purchase a license for it. 
+If you need access to a toolbox that is not in that list, you will need to purchase a license for it.
 
 # Purchase of a toolbox for exclusive use
 - IT services request a quote from the MathWorks
