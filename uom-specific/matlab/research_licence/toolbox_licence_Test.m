@@ -32,6 +32,12 @@ feature_name = ["Bioinformatics_Toolbox", ...
 
 for i = 1:length(feature_name)
     toolbox = feature_name(i);
-    assert(logical(license('test', toolbox)), 'No licence available for %s', toolbox)
-    fprintf('Licence available for %s.\n', toolbox)
+    assert(logical(license('test', toolbox)), 'No licence exists for %s', toolbox)
+    fprintf('Licence exists for %s.\n', toolbox)
+end
+
+for i = 1:length(feature_name)
+    toolbox = feature_name(i);
+    assert(logical(license('checkout', toolbox)), "Licence can't be checked out for %s", toolbox)
+    fprintf('Licence checked out for %s.\n', toolbox)
 end
