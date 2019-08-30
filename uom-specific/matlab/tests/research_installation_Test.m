@@ -1,7 +1,6 @@
 %TOOLBOX_INSTALLATION_TEST    Test if toolboxes are installed.
 %                             This is for the research licence 1560.
 
-product_info = ver;
 required_toolboxes = [
     "Bioinformatics Toolbox", ...
     "Control System Toolbox", ...
@@ -33,10 +32,4 @@ if computer('arch') == "win64"
     required_toolboxes = [required_toolboxes, "NAG Toolbox", "OPC Toolbox"];
 end
     
-installed_toolboxes = string({product_info.Name});
-
-for i = 1:length(required_toolboxes)
-    toolbox = required_toolboxes(i);
-    assert(any(contains(installed_toolboxes, toolbox)), "%s not installed", toolbox)
-    fprintf('%s is installed.\n', toolbox)
-end
+are_toolboxes_installed(required_toolboxes)
