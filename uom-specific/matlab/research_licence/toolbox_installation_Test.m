@@ -1,3 +1,6 @@
+%TOOLBOX_INSTALLATION_TEST    Test if toolboxes are installed.
+%                             This is for the research licence 1560.
+
 product_info = ver;
 required_toolboxes = [
     "Bioinformatics Toolbox", ...
