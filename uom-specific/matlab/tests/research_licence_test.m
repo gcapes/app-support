@@ -1,5 +1,5 @@
-%TOOLBOX_LICENCE_TEST   Test if toolbox licences are available.
-%                       This is for the research licence 1560.
+%RESEARCH_LICENCE_TEST   Test if toolbox licences are available.
+%                        This is for the research licence 1560.
 
 % To test a licence, you have to use the feature name of the product
 % as it appears in the licence file, rather than the actual name of the

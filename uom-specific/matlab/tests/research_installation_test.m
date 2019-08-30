@@ -1,5 +1,5 @@
-%TOOLBOX_INSTALLATION_TEST    Test if toolboxes are installed.
-%                             This is for the research licence 1560.
+%RESEARCH_INSTALLATION_TEST    Test if toolboxes are installed.
+%                              This is for the research licence 1560.
 
 required_toolboxes = [
     "Bioinformatics Toolbox", ...
