@@ -27,6 +27,11 @@ required_toolboxes = [
     "Symbolic Math Toolbox", ...
     "System Identification Toolbox", ...
     "Wavelet Toolbox"];
+
+if computer('arch') == "win64"
+    % OPC and NAG toolboxes only installed for Windows.
+    required_toolboxes = [required_toolboxes, "NAG Toolbox", "OPC Toolbox"];
+end
     
 installed_toolboxes = string({product_info.Name});
 
