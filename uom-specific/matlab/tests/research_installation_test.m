@@ -31,5 +31,6 @@ if computer('arch') == "win64"
     % OPC and NAG toolboxes only installed for Windows.
     required_toolboxes = [required_toolboxes, "NAG Toolbox", "OPC Toolbox"];
 end
-    
-are_toolboxes_installed(required_toolboxes)
+
+missing_toolboxes = are_toolboxes_installed(required_toolboxes);
+assert(isempty(missing_toolboxes), "Installation is missing toolboxes!")

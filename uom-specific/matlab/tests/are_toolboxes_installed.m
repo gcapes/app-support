@@ -1,4 +1,4 @@
-function are_toolboxes_installed(required_toolboxes)
+function missing_toolboxes = are_toolboxes_installed(required_toolboxes)
 %ARE_TOOLBOXES_INSTALLED    Test whether required_toolboxes are installed
     product_info = ver;
     installed_toolboxes = string({product_info.Name});
@@ -21,5 +21,3 @@ function are_toolboxes_installed(required_toolboxes)
             fprintf("!! %s is not installed !!\n", toolbox)
         end
     end
-    
-    assert(all(is_installed), "Installation is missing toolboxes!")

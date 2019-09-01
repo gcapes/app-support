@@ -14,5 +14,6 @@ required_toolboxes = ["MATLAB", ...
     "Symbolic Math Toolbox", ...
     "System Identification Toolbox"];
 
-are_toolboxes_installed(required_toolboxes)
+missing_toolboxes = are_toolboxes_installed(required_toolboxes);
+assert(isempty(missing_toolboxes), "Installation is missing toolboxes!")
 
