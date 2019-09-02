@@ -44,8 +44,5 @@ licence_exists = do_licences_exist(feature_name);
 assert(all(licence_exists), "Licence doesn't exist for all toolboxes!")
 
 %% Test licence can be checked out
-for i = 1:length(feature_name)
-    toolbox = feature_name(i);
-    assert(logical(license('checkout', toolbox)), "Licence can't be checked out for %s", toolbox)
-    fprintf('Licence checked out for %s.\n', toolbox)
-end
+check_out_success = check_out_licence(feature_name);
+assert(all(check_out_success), 'Unable to check out a licence for all products!')
