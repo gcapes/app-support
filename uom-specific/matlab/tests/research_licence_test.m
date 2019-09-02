@@ -36,13 +36,13 @@ if computer('arch') == "win64"
     feature_name = [feature_name, "OPC_Toolbox"];
 end
 
-%% Test correct licence
+%% Is correct licence in use
 assert(license == "1560", "Incorrect licence number in use!")
 
-%% Test licences exist
+%% Do licences exist
 licence_exists = do_licences_exist(feature_name);
 assert(all(licence_exists), "Licence doesn't exist for all toolboxes!")
 
-%% Test licences can be checked out
+%% Can licences be checked out
 check_out_success = check_out_licence(feature_name);
 assert(all(check_out_success), 'Unable to check out a licence for all products!')

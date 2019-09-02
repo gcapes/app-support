@@ -14,10 +14,10 @@ required_toolboxes = ["MATLAB", ...
     "Symbolic Math Toolbox", ...
     "System Identification Toolbox"];
 
-%% Test for missing toolboxes
+%% Any toolboxes missing 
 missing_toolboxes = are_toolboxes_installed(required_toolboxes);
 assert(isempty(missing_toolboxes), "Installation is missing toolboxes!")
 
-%% Test for extra toolboxes
+%% Any extra toolboxes
 extra_toolboxes = detect_extra_toolboxes(required_toolboxes);
 assert(isempty(extra_toolboxes), "Installation has extra toolboxes!")
