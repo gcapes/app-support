@@ -43,6 +43,6 @@ assert(license == "1560")
 licence_exists = do_licences_exist(feature_name);
 assert(all(licence_exists), "Licence doesn't exist for all toolboxes!")
 
-%% Test licence can be checked out
+%% Test licences can be checked out
 check_out_success = check_out_licence(feature_name);
 assert(all(check_out_success), 'Unable to check out a licence for all products!')
