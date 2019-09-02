@@ -41,12 +41,10 @@ if computer('arch') == "win64"
     feature_name = [feature_name, "OPC_Toolbox"];
 end
 
-for i = 1:length(feature_name)
-    toolbox = feature_name(i);
-    assert(logical(license('test', toolbox)), 'No licence exists for %s', toolbox)
-    fprintf('Licence exists for %s.\n', toolbox)
-end
+licence_exists = do_licences_exist(feature_name);
+assert(all(licence_exists), "Licence doesn't exist for all toolboxes!")
 
+%% Test licence can be checked out
 for i = 1:length(feature_name)
     toolbox = feature_name(i);
     assert(logical(license('checkout', toolbox)), "Licence can't be checked out for %s", toolbox)
