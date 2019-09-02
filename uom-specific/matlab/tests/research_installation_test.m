@@ -32,5 +32,10 @@ if computer('arch') == "win64"
     required_toolboxes = [required_toolboxes, "NAG Toolbox", "OPC Toolbox"];
 end
 
+%% Test for missing toolboxes
 missing_toolboxes = are_toolboxes_installed(required_toolboxes);
 assert(isempty(missing_toolboxes), "Installation is missing toolboxes!")
+
+%% Test for extra toolboxes
+extra_toolboxes = detect_extra_toolboxes(required_toolboxes);
+assert(isempty(extra_toolboxes), "Installation has extra toolboxes!")
