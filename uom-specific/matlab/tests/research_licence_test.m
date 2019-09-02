@@ -37,7 +37,7 @@ if computer('arch') == "win64"
 end
 
 %% Test correct licence
-assert(license == "1560")
+assert(license == "1560", "Incorrect licence number in use!")
 
 %% Test licences exist
 licence_exists = do_licences_exist(feature_name);
