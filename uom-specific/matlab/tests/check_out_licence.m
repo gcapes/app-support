@@ -9,6 +9,6 @@ function check_out_success = check_out_licence(feature_names)
             check_out_success(i) =  true;
             fprintf('Licence checked out for %s.\n', toolbox)
         else
-            fprintf("Licence can't be checked out for %s", toolbox)
+            fprintf("Licence can't be checked out for %s\n", toolbox)
         end
     end
