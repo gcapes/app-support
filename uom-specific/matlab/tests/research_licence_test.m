@@ -4,6 +4,11 @@
 % To test a licence, you have to use the feature name of the product
 % as it appears in the licence file, rather than the actual name of the
 % toolbox.
+
+%% Test correct licence
+assert(license == 1560)
+
+%% Test licences exist
 feature_name = ["Bioinformatics_Toolbox", ...
     "Control_Toolbox", ...
     "RTW_Embedded_Coder", ...
