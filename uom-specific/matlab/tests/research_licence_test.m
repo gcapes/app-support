@@ -4,11 +4,6 @@
 % To test a licence, you have to use the feature name of the product
 % as it appears in the licence file, rather than the actual name of the
 % toolbox.
-
-%% Test correct licence
-assert(license == 1560)
-
-%% Test licences exist
 feature_name = ["Bioinformatics_Toolbox", ...
     "Control_Toolbox", ...
     "RTW_Embedded_Coder", ...
@@ -41,6 +36,10 @@ if computer('arch') == "win64"
     feature_name = [feature_name, "OPC_Toolbox"];
 end
 
+%% Test correct licence
+assert(license == "1560")
+
+%% Test licences exist
 licence_exists = do_licences_exist(feature_name);
 assert(all(licence_exists), "Licence doesn't exist for all toolboxes!")
 
