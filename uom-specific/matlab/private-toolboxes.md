@@ -1,7 +1,7 @@
 # MATLAB toolboxes at UoM
 An overview of MATLAB toolboxes is given at https://www.applications.itservices.manchester.ac.uk/show_content.php?id=178.
 
-The research version of MATLAB at UoM comes with 12 MATLAB toolboxes, and the NAG toolbox.
+The research version of MATLAB at UoM comes with 24 MATLAB toolboxes, and the NAG toolbox.
 The list of toolboxes is detailed here:
 https://manchester.saasiteu.com/Modules/SelfService/#knowledgeBase/view/820634D1D55540C6A8BCCF58A4181874
 
