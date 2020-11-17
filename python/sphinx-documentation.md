@@ -32,3 +32,8 @@ make html
 ```
 
 This creates your documentation in `build/html`.
+
+If you want the documentation elsewhere you can run
+```
+sphinx-build -b html ./source ./put-html-here
+```
