@@ -1,4 +1,14 @@
 # MATLAB toolboxes at UoM
+
+## Campus-Wide licence
+UoM *currently* has a [total headcount] licence until the end October 2021, and the previous concurrent research licence
+has been 'stored'.
+As such it currently isn't possible to make any changes to that licence,
+including adding toolboxes.
+
+Users should therefore use the total headcount licence for the time being to install whatever
+toolboxes they need -- all toolboxes are available under this licence.
+
 ## Previously ...
 An overview of MATLAB toolboxes is given at https://www.applications.itservices.manchester.ac.uk/show_content.php?id=178.
 
@@ -22,14 +32,5 @@ If you need access to a toolbox that is not in that list, you will need to purch
 - Updates to the toolbox i.e. to enable compatibility with subsequent versions of MATLAB require a *maintenance* fee to be paid (this is small compared with the initial purchase cost).
 - For ease of support, IT services have made a policy decision that the maintenance fee has to be paid for a user to retain access to the toolbox.
 - You get a reminder each year to pay the maintenance cost, which is what most users do. However, there is no obligation to pay the maintenance if you no longer need the toolbox.
-
-## Campus-Wide licence
-UoM *currently* has a [total headcount] licence until the end October 2021, and the previous concurrent research licence
-has been 'stored'.
-As such it currently isn't possible to make any changes to that licence,
-including adding toolboxes.
-
-Users should therefore use the total headcount licence for the time being to install whatever
-toolboxes they need -- all toolboxes are available under this licence.
 
 [total headcount]: https://research-it.manchester.ac.uk/news/2020/09/22/matlab-licence-update-sept2020/
