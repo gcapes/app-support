@@ -24,12 +24,12 @@ If you need access to a toolbox that is not in that list, you will need to purch
 - You get a reminder each year to pay the maintenance cost, which is what most users do. However, there is no obligation to pay the maintenance if you no longer need the toolbox.
 
 ## Campus-Wide licence
-UoM *currently* has a [campus-wide licence] until the end October 2021, and the previous research version
+UoM *currently* has a [total headcount] licence until the end October 2021, and the previous concurrent research licence
 has been 'stored'.
 As such it currently isn't possible to make any changes to that licence,
 including adding toolboxes.
 
-Users should therefore use the campus-wide licence for the time being to install whatever
-toolboxes they need.
+Users should therefore use the total headcount licence for the time being to install whatever
+toolboxes they need -- all toolboxes are available under this licence.
 
-[campus-wide licence]: https://research-it.manchester.ac.uk/news/2020/09/22/matlab-licence-update-sept2020/
+[total headcount]: https://research-it.manchester.ac.uk/news/2020/09/22/matlab-licence-update-sept2020/
